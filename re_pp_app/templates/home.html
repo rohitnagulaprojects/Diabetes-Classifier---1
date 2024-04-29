@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> Real Estate Price Predictor by Ankith </title>
+<style>
+*{font-size:40px; font-family:Century;}
+body{background-color:lightyellow;}
+</style> 
+</head>
+
+<body>
+<center>
+<h1> Real Estate Price Predictor </h1>
+<form method = "POST">
+<label> Area </label>
+<input type="number" step="any" name = "area" placeholder="Enter area " required min="1"/>
+<br><br>
+<label> Bedrooms</label>
+<input type="number" step="any" name = "bedrooms" placeholder="Number of Bedrooms " />
+<br><br>
+<input type ="submit" value="Predict Price"/>
+</form>
+<h2> {{msg}} </h2>
+</center>
+</body>
+</html>
